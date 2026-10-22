@@ -147,7 +147,7 @@ export const SLAS: Sla[] = [
     name: 'Acknowledge new requisition',
     commitment: 'We confirm receipt and assign a recruiter',
     target: '4 business hours',
-    actual: '1.8 hours',
+    actual: '1 hour 48 minutes',
     state: 'ontrack',
     measured: 'From requisition submitted to owner assigned',
     detail:
@@ -158,7 +158,7 @@ export const SLAS: Sla[] = [
     name: 'First shortlist delivered',
     commitment: 'At least three screened candidates presented',
     target: '5 business days',
-    actual: '4.6 days',
+    actual: '4 days 14 hours 24 minutes',
     state: 'ontrack',
     measured: 'From requisition acknowledged to shortlist sent',
     detail:
@@ -201,7 +201,7 @@ export const SLAS: Sla[] = [
     name: 'Enquiry response',
     commitment: 'Any enquiry lodged through this site receives a reply',
     target: '1 business day',
-    actual: '5.2 hours',
+    actual: '5 hours 12 minutes',
     state: 'ontrack',
     measured: 'From case created to first human response',
     detail:
